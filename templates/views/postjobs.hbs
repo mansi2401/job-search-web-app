@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    {{>head}}
+   <body>
+       {{>header}}
+    <main>
+
+         <!-- slider Area Start-->
+        <div class="slider-area ">
+            <!-- Mobile Menu -->
+            <div class="slider-active">
+                <div class="single-slider slider-height d-flex align-items-center" data-background="img/hero/h3_hero.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-9 col-md-10">
+                                <div class="hero__caption">
+                                  <h2>Get best talents to work with<br></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <!-- Search Box -->
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <!-- form -->
+                                <form action="/post_job" method="post" class="search-box">
+                                    <div class="input-form">
+                                        <input type="text" placeholder="Enter Company Name" name="company" id="company">   </input><br> <br>
+                                        <input type="text" placeholder="Job Category" name="jobcategory" id="jobcategory"></input><br> <br>
+                                        <input type="text" placeholder="Salary" name="salary" id="salary"></input><br> <br>
+                                        <br><br><button class="btn waves-effect waves-light" type="submit">Post job</button>
+                                    
+                                    </div>
+                                     
+                                    
+                                    <div class="select-form">
+                                        <div class="select-itms">
+                                            <select name="select" id="select1">
+                                                <option value="Delhi">Delhi</option>
+                                                <option value="Noida">Noida</option>
+                                                <option value="Mumbai">Mumbai</option>
+                                                <option value="Chandigarh">Chandigarh</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                   	
+                                </form>	
+                                <p id='final'></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+    </main>
+    {{>footer}}
+    {{>jquery}} 
+    </body>
+    
+</html>

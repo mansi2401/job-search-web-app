@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    {{>head}}
+   <body>
+       {{>header}}
+    <main>
+
+         <!-- slider Area Start-->
+        <div class="slider-area ">
+            <!-- Mobile Menu -->
+            <div class="slider-active">
+                <div class="single-slider slider-height d-flex align-items-center" data-background="img/hero/h2_hero.jpg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-9 col-md-10">
+                                <div class="hero__caption">
+                                  <h2>Application<br></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <!-- Search Box -->
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <!-- form -->
+                                <form action="/thanks" method="get" class="search-box">
+                                    <div class="input-form">
+                                        <input type="text" placeholder="Enter Your Name" name="Name" id="Name">   </input><br> <br>
+                                        <input type="text" placeholder="Enter your age" name="age" id="age"></input><br> <br>
+                                        <input type="text" placeholder="Experience" name="Experience" id="Experience"></input><br> <br>
+                                        <input type="text" placeholder="Category of job" name="category" id="category"></input><br> <br>
+                                        <input type="text" placeholder="Contact" name="contact" id="contact"></input><br> <br>
+                                       <a href="/thankyouapply.hbs"> <br><br><button class="btn waves-effect waves-light" type="submit">Apply</button></a>
+                                    
+                                    </div>
+                                     
+                                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+    </main>
+    {{>footer}}
+    {{>jquery}} 
+    </body>
+    </html>
